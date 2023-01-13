@@ -1,0 +1,917 @@
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: normal;
+}
+body {
+	background: #F2F2F2;
+	margin: 0; 
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+.fongreyheader {
+	min-height: 118px;
+	background: #d9d9d9; /*все цвета пипеткой с сайта*/
+	margin: 0 auto;
+	padding-top: 10px;  
+}
+.header {
+	background: #000000;
+	max-width: 1249px;
+	min-height: 89px;
+	margin: 0 auto;
+}
+.header-menu {
+	max-width: 1249px;
+	margin-left: -10px; 
+    display: flex; 
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 89px;                
+    list-style-type: none; 
+    padding-inline-start: 0; 
+    margin-block-end: 0;
+}
+.header-menu a {
+	display: flex;  
+	justify-content: center;
+	align-items:center;
+    color: #E0E0E0;
+	font-size: 14px;
+	line-height: 1.72;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none; 
+    min-height: 89px;
+	padding: 0 31px; 
+}
+.header-menu a:hover  {
+   background: #FF3F40; 
+    min-height: 89px;
+}
+.fongrey {
+    background-color: #d9d9d9;
+	margin: 0 auto;
+}
+.entry {
+	max-width: 1253px;
+	min-height: 359.4px;
+	margin: 0 auto;
+	display: flex; 
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	padding-top: 80px; 
+	padding-right: 2px;
+}
+.itemized {
+	max-width: 618px;
+	min-height: 359.4px;
+	padding-bottom: 76px;
+}
+.titlebig {
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 1.2;
+	text-transform: uppercase;
+	color: #000000;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 1px;
+}
+.textheader {
+    font-weight: 400;
+	line-height: 1.75;
+	color: #000000;
+}
+.pinfont {
+	width: 227px;
+	height: 55px;
+    background: #FF2D2D;
+    border-radius: 0.25em;
+	padding-left: 2px;
+	margin-top: 55px;
+	margin-bottom: 50px;
+}
+.pin {
+	font-weight: 700;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 3.05;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.pomerans {
+	margin-top: 10px;
+	box-shadow: 0 -10px 50px 0 rgb(160, 160, 160);
+}
+.learnfon {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	max-width: 1253px;
+	height: 588.53px;
+	margin: 68px auto 0;
+	line-height: 1.75;
+	color: #000000;
+}
+.learninfo {
+	margin-right: 15px;
+	margin-left: 2px;
+    max-width: 539px; 
+    display: inline-block;
+    vertical-align: top; 
+}
+.learntitle {
+	font-weight: 600;
+	font-size: 42.19px;
+	line-height: 55px;
+	text-transform: uppercase;
+	color: #000000;
+	padding-left: 1px;
+}
+.textlearn {
+	max-width: 500px; /*по 1 макету 539*/
+	line-height: 1.75;
+}
+.pinlearn {
+	width: 227px;
+	height: 55px;
+	box-sizing:border-box;
+	margin-top: 47px;
+	border: 2px solid #FF0000;
+    border-radius: 0.25em;
+ }
+.pinlearn a {
+	font-weight: bold;
+	color: #FF2D2D;
+	font-size: 18px;
+	line-height: 3.05;/* в первом макете 16 в последнем 18*/
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.bloginfo {
+    max-width: 609.01px;
+    margin-top: 45px;
+    padding-left: 2px;
+}
+.learnblog {
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap; /*делает по 2 столбика*/
+}
+.learnblog h3 {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 0;
+}
+ .learnblog p {
+ 	width: 275px;
+ 	padding-bottom: 45px;
+}
+.rectangle {
+	max-width: 1251px;
+	max-height:5px;
+	border: 1px solid #ECECEC;
+	margin: 35px auto 100px;
+}
+.feature_name {
+	margin-top: 120px;
+	font-weight: 600;
+	font-size: 41.99px;
+	line-height: 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding-left: 25px;
+}
+.feature_text {
+	max-width: 500px;
+	margin:20px auto;
+	line-height: 1.75;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+.linered {
+	border-top: 2px solid #FF2D2D;
+	width: 110px;
+	margin: auto;
+	padding-left: 10px;
+}
+.feature_menu {
+	max-width: 950px;
+	min-height: 24px; 
+	margin: auto;
+    display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style-type: none; 
+}
+.feature {
+    font-size: 22px;
+	line-height: 1.09;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-decoration: none;
+    padding: 75px 18px;
+    margin: auto;
+}
+.gallery_book {
+	max-width: 1253px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.gallery { 
+    max-width: 302px;
+	margin-bottom: 15px;
+}
+.team {
+	max-width: 1253px;
+	margin:0 auto;
+	margin-top: 117px;
+	margin-bottom: 108px;
+}
+.team_title {
+    font-size: 42px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding-left: 3px;
+	margin-block: 0;
+}
+.team_text {
+	max-width: 478.85px;
+	line-height: 1.75;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 1px;
+}
+.line_team {
+    max-width: 122px;
+	border: 2px solid #FF2D2D;
+	box-sizing: border-box;
+	padding: 0 3px;
+	margin-left: 0;
+	margin-top: 3px;
+}
+.all_team {
+	margin: auto;
+	margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} 
+.team_opic {
+	min-height: 462.5px;
+}
+.mast_name {
+    font-size: 30.127px;
+    line-height: 1;
+    padding-left: 5px;
+    text-transform: uppercase;
+	font-weight: 600;
+    margin: 0;	
+}
+.opine {
+	max-width: 662.85px;
+	min-height: 45px;
+	margin-block-start: 20px;
+	padding-left: 5px;
+    line-height: 1.75;
+	margin-bottom: 35px;
+}
+.netwo {
+    max-width: 401px;
+	height: 24px;
+	font-style: italic;
+    display: flex;
+	flex-wrap: wrap;
+	padding-inline-start: 0;
+}
+.netwo li {
+    list-style-type: none;
+    padding-left: 5px;
+}
+.netwo a {	
+	color: #000000;
+	font-size: 18px;
+	line-height: 1.33;
+	text-decoration: none;
+    padding-right: 30px;
+}
+.netwo a:hover {
+    text-decoration: underline;
+}
+.photo_team {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin-top: 70px;
+}
+.team_person {
+	position: relative;
+	margin-right: 18px;
+	
+}
+.photo_person {
+	margin: 0;
+}
+.name_person {
+	width: 197px;
+	height: 37px;
+	background: #000000;
+	opacity: 0.5;
+	color: #FFFFFF;
+	font-size: 18.08px;
+	text-align: center;
+	padding-top: 4px;
+    box-sizing: border-box;
+    position: absolute;
+	margin: 0;
+    bottom: 0;
+    visibility: hidden;/*спрятали имя*/
+}
+.team_person:hover .name_person {
+	visibility: visible;
+}
+.mailblog {
+	background: #2D2D2D;
+	min-height: 522px;
+}
+.mail_title {
+	color: #FFFFFF;
+	max-width: 1129px;
+    font-size: 42px;
+    font-weight: 600;
+    padding-top: 140px;
+    line-height: 24px;
+	margin: auto;
+	text-align: center;
+}
+.mailtitsm {
+    color: #FFFFFF;
+	max-width: 573.85px;
+	line-height: 1.75;
+	padding-top: 48px;
+	margin: auto;
+}
+.mail_form {
+    margin-top: 48px;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+.mail_form input {
+	border: 0;
+	color: #2C2C2C;
+	font-size: 16px;
+	line-height: 5.12;
+	padding-left: 30px;
+}
+.white_field {
+    width: 521px;
+	height: 79px; 
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 0.25em;
+	text-decoration: none;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-right: 20px;
+}
+.red_field {
+    width: 217px;
+	height: 79px; /* по макету 82*/
+    background: #FF2D2D;
+    border: none;
+    border-radius: 0.25em;
+    font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-decoration: none;
+}
+.title_bot {
+	font-size: 41.99px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-left: 85px; 
+    margin-top: 95px;
+    margin-bottom: 0;
+}
+.text_bot {
+	max-width: 752.85px;
+   line-height: 1.75;
+    margin-left: 85px; /*по макету 1648*/
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.twoline_team {
+	max-width: 122px;
+	border: 2px solid #FF2D2D;
+	box-sizing: border-box;
+	padding: 0 3px;
+	margin-left: 85px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+.letter {
+	display: flex;
+	margin-top: 70px;
+	margin-left: 85px;
+	margin-bottom: 105px;
+}
+form .letter {
+	max-width: 292px;
+	display: inline-block;
+}
+.form_name, .form_mail {
+	display: inline-block;
+	width: 292px; /*не 342 тк padding 50*/
+	height: 71px;
+	border-radius: 0.25em;
+	border: none;
+	background-color: #dfdfdf;
+    font-size: 15.91px;
+	padding-left: 50px;
+}
+.form_mail {
+	margin-left: 41px;
+}
+.form_message {
+    display: block;
+    width: 100%;
+    max-width: 684px; /*734 по макету*/
+    height: 220px;
+    border-radius: 0.25em;
+	border: none;
+	background-color: #dfdfdf;
+	font-size: 15.91px;
+	font-family: inherit;
+	margin-top: 43px;
+    padding-left: 50px;
+    padding-top: 35px;
+}
+.form_pin {
+
+    width: 736px;
+	height: 73px; /* по макету 82*/
+    background: #FF2D2D;
+    border: none;
+    border-radius: 0.25em;
+    margin-top: 43px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #dfdfdf;
+	font-size: 18px;
+	text-decoration: none;
+    line-height: 1.33;
+    text-align: center;
+}
+.contact_list {
+	margin-right: 101px;
+}
+.black_square {
+	max-width: 468px;
+	height: 495px;
+	background: #2D2D2D;
+	color: #FFFFFF;
+	font-style: italic;
+}
+.adress_t {
+	padding-left: 81px;
+}
+.contact_text {
+	padding-top: 118px;
+	font-size: 17.9px;
+	line-height: 1.89;
+	text-transform: uppercase;
+}
+.black_adress {
+	line-height: 1.75;
+	text-decoration: none;
+}
+.empty_square {
+	flex: 1 1 auto;
+	height: 495px;
+	background: #2D2D2D;
+}
+.black_square a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-style: italic;
+}
+.foot {
+	height: 113px;
+	background: #2D2D2D;
+	margin: auto;
+}
+.foot_text {
+	padding-top: 28px;
+	display: flex;
+	justify-content: center;
+}
+.foot_cont {
+	padding-top: 5px;
+	line-height: 1.75;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 430px;
+	margin-right: 18px;
+}
+.cocial {
+	margin-left: 10px;
+	padding-top: 18px;
+	padding-left: 250px;
+}
+.cocial a {
+	padding-right: 18px;
+}
+
+
+
+@media screen and (max-width: 1248px) {
+	
+	.entry {
+		padding-left: 10px;
+		padding-right: 10px;
+}
+	.learnfon {
+		padding-left: 10px;
+		padding-right: 10px;
+}
+	.gallery {
+		padding-left: 5px;
+		padding-right: 5px;
+}
+    .team {
+    	padding: 10px;
+}
+    .foot_cont {
+		padding-left: 10px;
+		padding-right: 0;
+}
+    .cocial {
+		padding-right: 5px;
+		padding-left: 0;
+}
+
+    .title_bot {
+	   margin-left: 0;
+	   text-align: center; 
+}
+    .text_bot {
+	   max-width: 752.85px;
+       line-height: 1.75;
+       margin: 0 auto;
+       margin-top: 30px;
+       padding: 0 10px;
+}
+    .twoline_team {
+	   margin: 50px auto;
+	   padding: 0;
+}
+    .letter {
+	    flex-direction: column;
+        align-items: stretch;
+	    margin: 0 auto;
+}
+    .contact_list {
+	    margin: 30px auto;
+}
+    .adress_t {
+    	padding: 0 30px;
+}
+    .black_square {
+	    width: auto;
+	    max-width: 1500px;
+}
+    .empty_square {
+ 	    height: 0;
+} 
+}
+
+@media screen and (max-width: 1200px) {
+    .team {
+        padding-left: 100px;
+}
+	.team_opic {
+		width: 500px;
+}
+    .netwo {
+   	    margin-left: 50px;
+}
+    .team_opic {
+    	margin: auto;
+    	padding: 10px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+	.entry {
+        padding-left: 10px;
+		padding-right: 10px;
+		margin: auto;
+}
+	.titlebig {
+	     font-weight: 700;
+	     font-size: 50px;
+}
+    .entry img {
+    	width: 50%;
+    	height: 50%;
+    	margin-top: 10px;
+}
+    .team {
+ 	    margin: 30px auto;
+ 	    padding:5px;
+}
+    .team_start {
+	    text-align: center;
+}   
+    .line_team {
+        margin: 25px auto;
+}
+    .team_text {
+        margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 1030px) {
+    .entry {
+    	flex-wrap: wrap;
+}
+    .itemized {
+    	margin: 20px auto 1px;
+}
+    .titlebig {
+	    font-weight: 800;
+	    font-size: 55px;
+	    text-align: center;
+}
+    .pinfont {
+	    margin-bottom: 0;
+	    margin-right: 1px;
+	    margin-left: auto;
+	    width: 227px;
+	    padding-left: 0;
+}
+    .entry img {
+        width: 70%;
+        height: 70%;
+        margin: 30px auto;
+}
+	.learntitle {
+	   font-weight: 600;
+	   font-size: 35px;
+	   line-height: 50px;
+}
+    .learnblog {
+	   display: block;
+}
+    .learnblog p {
+ 	   width: 400px;
+}
+    .learnfon {
+ 	   justify-content: space-between;
+}
+    .rectangle {
+	   margin-top: 400px;
+	   margin-bottom: 20px;
+}
+    .feature {
+       padding: 0 8px;
+       margin: 30px auto;
+}
+    .mailblog {
+	   padding: 10px;
+}
+    .mail_title {
+       line-height: 2; 
+       padding-top: 60px;
+}
+    
+}
+@media screen and (max-width: 900px) {
+ 
+    .team_name {
+       text-align: center;
+}
+    .master {
+	   margin: 20px auto;
+}
+    .netwo {
+       margin: 50px auto;
+}
+}
+
+@media screen and (max-width: 800px) {
+     .learnblog p {
+     	max-width: 400px;
+}
+     .mail_form {
+	   flex-direction: column;
+	   align-items: flex-end;
+	   margin-right: 30px;
+}
+     .white_field {
+       margin-right: 0;
+	   margin-bottom: 10px;
+}
+     .red_field {
+	   margin-bottom: 30px;
+}
+     .foot {
+	   height: 150px;
+}	
+     .foot_text {
+	   display: block;
+}
+     .cocial {
+		padding-top: 5px;
+}
+     .form_name, .form_mail {
+        width: 100%;
+	    max-width: 400px;
+	    margin: 10px 0;
+}
+     .form_pin {
+        max-width: 400px;
+	    height: 73px;
+}   
+      .contact_list form {
+ 	    display: flex;
+ 	    flex-direction: column;
+ 	    align-items: center;
+}  
+}
+@media screen and (max-width: 740px) {
+
+     .learnblog p {
+ 	    max-width: 300px;
+}
+     .rectangle {
+        margin-top: 400px;
+}
+     .feature_menu {
+	    display: block;
+	    padding-inline-start: 0;
+	    text-align: center;
+}
+}
+
+@media screen and (max-width: 640px) {
+     .learnfon {
+ 	   display: block;
+ 	   text-align: center;
+ }
+     .learnblog p {
+ 	   max-width: 400px;
+       margin: auto;
+ }
+     .pinlearn {
+	   margin-left: auto;
+	   margin-right: 1px;
+}
+     .itemized {
+	   margin-right: 20px 15px;
+}
+     .textheader {
+	   margin: 20px 15px;
+
+}
+     .rectangle {
+	   margin-top: 750px;
+}
+     .gallery_book {
+	   display: block;
+	   text-align: center;
+}
+     .mailtitsm {
+       text-align: center;
+}
+}
+
+@media screen and (max-width: 550px) {
+	
+	 .rectangle {
+	   margin-top: 700px;
+}
+     .mail_title {
+       font-size: 35px;
+}
+     .mail_form {
+     	margin: 5px;
+}
+     .white_field {
+       max-width: 350px;
+       margin-top: 50px;
+}
+     .red_field {
+	   max-width: 150px;
+	   height: 50px;
+}
+     .titlebig {
+	   font-weight: 700;
+	   font-size: 40px;
+}
+}
+@media screen and (max-width: 460px) {
+
+.learnblog {
+	display: block; 
+}
+.feature_name {
+	font-size: 30px;
+}
+.photo_team {
+	justify-content: center;
+}
+.rectangle {
+    margin: 800px auto 100px;
+}
+.itemized {
+	max-width: 618px;
+	min-height: 359.4px;
+	padding-bottom: 50px;
+}
+.titlebig {
+	margin-bottom: 30px;
+}
+.entry {
+	padding-top: 40px;
+}
+.netwo {
+	display: block;
+}
+.netwo li {
+	margin: 5px 0;
+}
+}
+
+@media screen and (max-width: 380px) {
+
+.titlebig, .learntitle, .team_title, .mail_title {
+	font-size: 30px;
+}
+.learnblog p {
+ 	 max-width: 300px;
+}
+.rectangle {
+    margin: 900px auto 100px;
+}
+
+}
+.photo_team {
+	margin-top: 100px;
+}
+ .white_field {
+       max-width: 300px;
+}
+
+.form_name, .form_mail {
+        width: 100%;
+	    max-width: 300px;
+	  
+}
+     .form_pin {
+        max-width: 300px;
+	   
+}   
+.foot_text {
+	padding-top: 2px;
+}
+}	
