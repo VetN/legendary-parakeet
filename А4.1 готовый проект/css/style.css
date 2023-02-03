@@ -54,7 +54,7 @@ body {
 	max-width: 1249px;
 	margin-left: -10px; 
     display: flex; 
-	justify-content: center;
+    justify-content: center;
 	flex-wrap: wrap;
 	min-height: 89px;                
     list-style-type: none; 
@@ -63,7 +63,7 @@ body {
 }
 .header-menu a {
 	display: flex;  
-	justify-content: center;
+/*	justify-content: center;*/
 	align-items:center;
     color: #E0E0E0;
 	font-size: 14px;
@@ -892,8 +892,6 @@ form .letter {
 }
 .rectangle {
     margin: 900px auto 100px;
-}
-
 }
 .photo_team {
 	margin-top: 100px;
